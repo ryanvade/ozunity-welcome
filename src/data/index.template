@@ -29,7 +29,7 @@
                 </a>
                 <a class="cont-item" href="features.html">
                     <img class="cont-png" src="img/icons/newfeatures.png"/>
-                    <div class="cont-text">New Features</div>
+                    <div class="cont-text">Release Info</div>
                 </a>
                 <a class="cont-item" href="cmd://link?http://wiki.manjaro.org">
                     <img class="cont-png" src="img/icons/wiki.png"/>
