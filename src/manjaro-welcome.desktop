@@ -7,5 +7,6 @@ Name=Manjaro Welcome
 Exec=manjaro-welcome
 Icon=gtk-info
 Comment=The Manjaro Welcome utility.
+Comment[pl]=Witamy w Manjaro Linux !
 Name[de_DE.UTF-8]=Manjaro Welcome
-Name[pl_PL.UTF-8]=Witamy w Manjaro
+Name[pl]=Witamy w Manjaro
