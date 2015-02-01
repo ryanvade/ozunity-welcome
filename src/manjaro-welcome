@@ -152,7 +152,7 @@ class ManjaroAppView(WebKit.WebView):
         elif uri == 'install':
             if os.path.exists("/usr/bin/thus"):
                 Popen(['sudo', 'thus'])
-            if os.path.exists("/usr/bin/calamares"):
+            elif os.path.exists("/usr/bin/calamares"):
                 Popen(['sudo', 'calamares'])
 
         elif uri == 'install-cli':
