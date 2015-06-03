@@ -12,12 +12,12 @@
     <body class="backdrop">
         <div id="header">
             <img id="logo" src="img/logo.png" />
-            <div id="header-text">manjaro</div>
-            <div id="codename">Ascella</div><div id="version">0.8.13</div>
+            <div id="header-text">Oz Unity Manjaro Edition</div>
+            <div id="codename">Beta</div><div id="version">0.1</div>
             <div id="arch">64-bit</div>
         </div>
-        <div class="manjaro-desc">Welcome to Manjaro, and thank you for joining our community!</div>
-        <div class="manjaro-desc">We, the Manjaro Developers, hope that you will enjoy using Manjaro as much as we enjoy building it. The links below will help you get started with your new operating system. So enjoy the experience, and don't hesitate to send us your feedback.</div>
+        <div class="manjaro-desc">Welcome to Oz Unity Manjaro Editon! Very big thank you to the Manjaro developers for all of their hard work!!</div>
+        <div class="manjaro-desc">The links below will help you get started with your new operating system. So enjoy the experience, and don't hesitate to send us, and the Manjaro Developers, your feedback.</div>
         <div id="contents">
             <span class="cont-container">
                 <div class="cont-header">Documentation</div>
@@ -31,22 +31,22 @@
                 </a>
                 <a class="cont-item" href="cmd://link?http://wiki.manjaro.org">
                     <img class="cont-png" src="img/icons/wiki.png"/>
-                    <div class="cont-text">Wiki</div>
+                    <div class="cont-text">Manjaro Wiki</div>
                 </a>
             </span>
             <span class="cont-container">
                 <div class="cont-header">Support</div>
-                <a class="cont-item" href="cmd://link?http://forum.manjaro.org">
+                <a class="cont-item" href="cmd://link?https://www.ultimateeditionoz.com/">
                     <img class="cont-png" src="img/icons/forums.png"/>
+                    <div class="cont-text">Homepage</div>
+                </a>
+                <a class="cont-item" href="cmd://link?https://www.ultimateeditionoz.com/forum">
+                    <img class="cont-png" src="img/icons/chatroom.png"/>
                     <div class="cont-text">Forums</div>
                 </a>
-                <a class="cont-item" href="cmd://link?http://manjaro.org/irc-channel/">
-                    <img class="cont-png" src="img/icons/chatroom.png"/>
-                    <div class="cont-text">Chat Room</div>
-                </a>
-                <a class="cont-item" href="cmd://link?http://lists.manjaro.org/cgi-bin/mailman/listinfo">
-                    <img class="cont-png" src="img/icons/mailinglists.png"/>
-                    <div class="cont-text">Mailing Lists</div>
+                <a class="cont-item" href="cmd://link?http://ultimateedition.info/">
+                    <img class="cont-png" src="img/icons/UltimateEditionLogo.png"/>
+                    <div class="cont-text">Ultimate Edition</div>
                 </a>
             </span>
             <span class="cont-container">
@@ -63,11 +63,11 @@
                     <img class="cont-png" src="img/icons/installmanjarocli.png"/>
                     <div class="cont-text">Install Manjaro (cli)</div>
                 </a>
-                <a class="cont-item" id="buildmanjaro"  href="cmd://link?https://github.com/manjaro/">
+                <a class="cont-item" id="buildmanjaro"  href="cmd://link?https://github.com/ryanvade/">
                     <img class="cont-png" src="img/icons/buildmanjaro.png"/>
-                    <div class="cont-text">Build Manjaro</div>
+                    <div class="cont-text">ryanvade's GitHub</div>
                 </a>
-                <a class="cont-item" id="donations" href="cmd://link?https://manjaro.github.io/donate/">
+                <a class="cont-item" id="donations" href="cmd://link?https://www.ultimateeditionoz.com/donate">
                     <img class="cont-png" src="img/icons/mailinglists.png"/>
                     <div class="cont-text">Donations</div>
                 </a>

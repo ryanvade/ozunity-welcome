@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 #
-# Copyright © 2012-2013 "Korora Project" <dev@kororaproject.org>
-# Copyright © 2013-2015 "Manjaro Linux" <support@manjaro.org>
+# Original Copyright © 2012-2013 "Korora Project" <dev@kororaproject.org>
+# Original Copyright © 2013-2015 "Manjaro Linux" <support@manjaro.org>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the temms of the GNU General Public License as published by
@@ -49,10 +49,10 @@ class WelcomeConfig(object):
         self._welcome_bin_path = os.path.abspath(inspect.getfile(inspect.currentframe()))
 
         # store directory to our welcome configuration
-        self._config_dir = os.path.expanduser('~/.config/manjaro/welcome/')
+        self._config_dir = os.path.expanduser('~/.config/ozunity/welcome/')
 
         # store full path to our autostart symlink
-        self._autostart_path = os.path.expanduser('~/.config/autostart/manjaro-welcome.desktop')
+        self._autostart_path = os.path.expanduser('~/.config/autostart/ozunity-welcome.desktop')
 
         # ensure our config directory exists
         if not os.path.exists(self._config_dir):
@@ -69,7 +69,7 @@ class WelcomeConfig(object):
         if state and not os.path.exists(self._autostart_path):
             # create the autostart symlink
             try:
-                os.symlink('/usr/share/applications/manjaro-welcome.desktop', self._autostart_path)
+                os.symlink('/usr/share/applications/ozunity-welcome.desktop', self._autostart_path)
             except OSError as e:
                 print(e)
                 pass
@@ -150,13 +150,13 @@ class ManjaroAppView(WebKit.WebView):
             Popen(['khelpcenter'])
 
         elif uri == 'install':
-            if os.path.exists("/usr/bin/thus"):
+            if os.path.exists("/usr/bin/ozunity-thus"):
                 Popen(['sudo', 'thus'])
             elif os.path.exists("/usr/bin/calamares"):
                 Popen(['sudo', 'calamares'])
 
         elif uri == 'install-cli':
-            Popen(['manjaro-welcome-terminal', 'sudo setup'])
+            Popen(['ozunity-welcome-terminal', 'sudo setup'])
 
         elif uri == 'close':
             Gtk.main_quit()
@@ -185,11 +185,11 @@ class WelcomeApp(object):
         if os.path.exists(os.path.join(self._location, 'data/')):
             print('Using relative path for data source. Non-production testing.')
             self._data_path = os.path.join(self._location, 'data/')
-        elif os.path.exists('/usr/share/manjaro-welcome/'):
-            print('Using /usr/share/manjaro-welcome/ path.')
-            self._data_path = '/usr/share/manjaro-welcome/'
+        elif os.path.exists('/usr/share/ozunity-welcome/'):
+            print('Using /usr/share/ozunity-welcome/ path.')
+            self._data_path = '/usr/share/ozunity-welcome/'
         else:
-            print('Unable to source the manjaro-welcome data directory.')
+            print('Unable to source the ozunity-welcome data directory.')
             exit(1)
 
         self._build_app()
@@ -198,8 +198,8 @@ class WelcomeApp(object):
         # build window
         w = Gtk.Window()
         w.set_position(Gtk.WindowPosition.CENTER)
-        w.set_wmclass('Manjaro Welcome', 'Manjaro Welcome')
-        w.set_title('Manjaro Welcome')
+        w.set_wmclass('Oz Unity Welcome', 'Oz Unity Welcome')
+        w.set_title('Oz Unity Welcome')
         w.set_size_request(768, 496)
         w.set_icon_from_file(os.path.join(self._data_path, "img/favicon.png"))
 
