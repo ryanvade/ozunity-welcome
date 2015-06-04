@@ -47,8 +47,8 @@
       <file leaf-file-name="ozunity-welcome.desktop" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ozunity-welcome.desktop">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19927536">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.1268116">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -397,7 +397,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433388042913</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed Social Media Links">
+      <created>1433388622942</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1433388622942</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -740,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ozunity-welcome.desktop">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19927536">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.1268116">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding />
         </state>
       </provider>
